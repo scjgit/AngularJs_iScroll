@@ -1,0 +1,1 @@
+This POC shows how to implement the iScroll using a custom AngularJs directive.
