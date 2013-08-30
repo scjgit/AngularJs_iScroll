@@ -1,0 +1,49 @@
+.detailGrid {
+	border: 2px solid rgba(66, 57, 57, 0.47);
+	float: left;
+	list-style: none;
+	margin: 2px;
+	padding: 5px 9px 5px 9px;
+	width: 5cm;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.detailsOuterDiv {	
+	padding-left: 4%;
+}
+
+.detailsInnerDiv {
+	height: 210%;
+}
+
+.divStyle{
+	position:absolute;
+	border-style: solid;
+	height: 480;
+	margin-top: 10%;
+}
+.imageStyle {
+	width: 100px;
+	height: 100px;
+	align: center;;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: 20%;
+}
+
+.footerClass {
+	right: 0px;
+	position: relative;
+	margin-top: 10px;
+}
+
+.headerClass {
+	right: 0px;
+	position: relative;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+	<div class='span9 main divStyle' align="center">
+		<div id="myList" class="detailsOuterDiv">
+			<div id="scroller" smoothscroll="myList,320">
+				<div ng-repeat="phone in phones | filter:query" class="detailGrid">
+					<div id="{{$index}}">
+						<image ng-src="{{phone.image}}" class="imageStyle" />							
+						<br>{{phone.name | uppercase}} <br>Price:{{phone.price | number}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
